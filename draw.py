@@ -2,7 +2,7 @@ import turtle
 import numpy as np
 import cv2
 
-img_source = cv2.imread('/home/binh/Pictures/ronaldo.jpg')
+img_source = cv2.imread('Messi.jpg')
 img_source1 = cv2.resize(img_source, (315,390))
 img = cv2.flip(img_source1,1)
 img_gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY) # chuyển ảnh xám thành ảnh grayscale
